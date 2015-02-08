@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "74C0C3474C471633FE49C130"
+               BlueprintIdentifier = "A569CEA6ACCA58CC0FFD55AB"
                BuildableName = "libPods-Moment-VKVideoPlayer.a"
                BlueprintName = "Pods-Moment-VKVideoPlayer"
                ReferencedContainer = "container:Pods.xcodeproj">

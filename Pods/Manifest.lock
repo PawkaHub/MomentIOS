@@ -1,4 +1,30 @@
 PODS:
+  - AFNetworking (2.5.0):
+    - AFNetworking/NSURLConnection (= 2.5.0)
+    - AFNetworking/NSURLSession (= 2.5.0)
+    - AFNetworking/Reachability (= 2.5.0)
+    - AFNetworking/Security (= 2.5.0)
+    - AFNetworking/Serialization (= 2.5.0)
+    - AFNetworking/UIKit (= 2.5.0)
+  - AFNetworking/NSURLConnection (2.5.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.0)
+  - AFNetworking/Security (2.5.0)
+  - AFNetworking/Serialization (2.5.0)
+  - AFNetworking/UIKit (2.5.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AFOAuth2Manager (2.0.0):
+    - AFNetworking (~> 2.2)
+  - AWSiOSSDK/Runtime (1.7.1)
+  - AWSiOSSDK/S3 (1.7.1):
+    - AWSiOSSDK/Runtime
   - CocoaLumberjack (1.7.0):
     - CocoaLumberjack/Core (= 1.7.0)
     - CocoaLumberjack/Extensions (= 1.7.0)
@@ -16,11 +42,36 @@ PODS:
     - DTFoundation/Core
   - DTFoundation/UIKit (1.7.4):
     - DTFoundation/Core
+  - FFmpeg (2.2):
+    - FFmpeg/precompiled (= 2.2)
+  - FFmpeg/precompiled (2.2)
+  - FFmpegWrapper (1.0):
+    - FFmpeg (~> 2.2)
+  - FormatterKit/TimeIntervalFormatter (1.8.0)
   - FXImageView (1.3.5)
+  - Kickflip (1.2):
+    - AFNetworking (~> 2.2)
+    - AFOAuth2Manager (~> 2.0)
+    - AWSiOSSDK/S3 (~> 1.7)
+    - CocoaLumberjack (~> 1.0)
+    - FFmpegWrapper (~> 1.0)
+    - FormatterKit/TimeIntervalFormatter (~> 1.4)
+    - Mantle (~> 1.4)
+    - PureLayout (~> 2.0)
+    - SDWebImage (~> 3.6)
+    - SSKeychain (~> 1.2)
+  - Mantle (1.5.4):
+    - Mantle/extobjc (= 1.5.4)
+  - Mantle/extobjc (1.5.4)
   - Mixpanel (2.7.2):
     - Mixpanel/MPCategoryHelpers (= 2.7.2)
   - Mixpanel/MPCategoryHelpers (2.7.2)
+  - PureLayout (2.0.5)
   - Reachability (3.1.1)
+  - SDWebImage (3.7.1):
+    - SDWebImage/Core (= 3.7.1)
+  - SDWebImage/Core (3.7.1)
+  - SSKeychain (1.2.2)
   - VKFoundation (0.1.1):
     - CocoaLumberjack (~> 1.7.0)
     - DTCoreText (~> 1.6.11)
@@ -32,16 +83,28 @@ PODS:
     - VKFoundation (= 0.1.1)
 
 DEPENDENCIES:
+  - Kickflip
   - Mixpanel
   - VKVideoPlayer
 
 SPEC CHECKSUMS:
+  AFNetworking: 0f54cb5d16ce38c1b76948faffb8d5fb705021c7
+  AFOAuth2Manager: a7726957cbc14c229b5d5d648c934453b6bb55b0
+  AWSiOSSDK: a8b11ab4437620b3f5e33e7c090ec393cfd33301
   CocoaLumberjack: 744856111d9431252611e696ea460ffe36fdc5ae
   DTCoreText: 1fc0aadfa238d14c6cc56035af4e2b76b958e3b1
   DTFoundation: 721a63964fb9acd64cb8c9d3d1642ee60bac3d6a
+  FFmpeg: 7e37c1efa4206e68c225ec0d73b8e3373d537c2a
+  FFmpegWrapper: 9564268abcc9660ec5463adbe4b5e01f52b6fdd3
+  FormatterKit: 547a808c41172136a3f3acb424ac9361d38bb32f
   FXImageView: be49853e2f7ac281ad9312ead922edafa19cdd5c
+  Kickflip: 702f5b80a0b69e7e43ed314e86aadcdc0f5daceb
+  Mantle: d5fbaf30fbc58031223af13812c060e15934a1fe
   Mixpanel: def38b9e600f101686b8d647e05660a72c089c65
+  PureLayout: 63a3257320223e8edddcd3afb407445f85a6bf74
   Reachability: 8e9635e3cb4f98e7f825e51147f677ecc694d0e7
+  SDWebImage: 116e88633b5b416ea0ca4b334a4ac59cf72dd38d
+  SSKeychain: cc48bd3ad24fcd9125adb9e0d23dd50b8bbd08b9
   VKFoundation: 39b420ace3adc7aedcd98f84b71500ced0f6f5e1
   VKVideoPlayer: 87e52d0d4b3045fc1b9714135e83233bb86479bb
 

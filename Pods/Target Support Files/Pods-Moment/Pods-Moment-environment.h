@@ -6,6 +6,66 @@
 // project.
 
 
+// AFNetworking
+#define COCOAPODS_POD_AVAILABLE_AFNetworking
+#define COCOAPODS_VERSION_MAJOR_AFNetworking 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking 5
+#define COCOAPODS_VERSION_PATCH_AFNetworking 0
+
+// AFNetworking/NSURLConnection
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_NSURLConnection
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_NSURLConnection 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_NSURLConnection 5
+#define COCOAPODS_VERSION_PATCH_AFNetworking_NSURLConnection 0
+
+// AFNetworking/NSURLSession
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_NSURLSession
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_NSURLSession 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_NSURLSession 5
+#define COCOAPODS_VERSION_PATCH_AFNetworking_NSURLSession 0
+
+// AFNetworking/Reachability
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_Reachability
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_Reachability 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_Reachability 5
+#define COCOAPODS_VERSION_PATCH_AFNetworking_Reachability 0
+
+// AFNetworking/Security
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_Security
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_Security 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_Security 5
+#define COCOAPODS_VERSION_PATCH_AFNetworking_Security 0
+
+// AFNetworking/Serialization
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_Serialization
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_Serialization 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_Serialization 5
+#define COCOAPODS_VERSION_PATCH_AFNetworking_Serialization 0
+
+// AFNetworking/UIKit
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_UIKit
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_UIKit 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_UIKit 5
+#define COCOAPODS_VERSION_PATCH_AFNetworking_UIKit 0
+
+// AFOAuth2Manager
+#define COCOAPODS_POD_AVAILABLE_AFOAuth2Manager
+#define COCOAPODS_VERSION_MAJOR_AFOAuth2Manager 2
+#define COCOAPODS_VERSION_MINOR_AFOAuth2Manager 0
+#define COCOAPODS_VERSION_PATCH_AFOAuth2Manager 0
+
+// AWSiOSSDK/Runtime
+#define COCOAPODS_POD_AVAILABLE_AWSiOSSDK_Runtime
+#define COCOAPODS_VERSION_MAJOR_AWSiOSSDK_Runtime 1
+#define COCOAPODS_VERSION_MINOR_AWSiOSSDK_Runtime 7
+#define COCOAPODS_VERSION_PATCH_AWSiOSSDK_Runtime 1
+
+// AWSiOSSDK/S3
+#define COCOAPODS_POD_AVAILABLE_AWSiOSSDK_S3
+#define COCOAPODS_VERSION_MAJOR_AWSiOSSDK_S3 1
+#define COCOAPODS_VERSION_MINOR_AWSiOSSDK_S3 7
+#define COCOAPODS_VERSION_PATCH_AWSiOSSDK_S3 1
+
 // CocoaLumberjack
 #define COCOAPODS_POD_AVAILABLE_CocoaLumberjack
 #define COCOAPODS_VERSION_MAJOR_CocoaLumberjack 1
@@ -54,11 +114,53 @@
 #define COCOAPODS_VERSION_MINOR_DTFoundation_UIKit 7
 #define COCOAPODS_VERSION_PATCH_DTFoundation_UIKit 4
 
+// FFmpeg
+#define COCOAPODS_POD_AVAILABLE_FFmpeg
+#define COCOAPODS_VERSION_MAJOR_FFmpeg 2
+#define COCOAPODS_VERSION_MINOR_FFmpeg 2
+#define COCOAPODS_VERSION_PATCH_FFmpeg 0
+
+// FFmpeg/precompiled
+#define COCOAPODS_POD_AVAILABLE_FFmpeg_precompiled
+#define COCOAPODS_VERSION_MAJOR_FFmpeg_precompiled 2
+#define COCOAPODS_VERSION_MINOR_FFmpeg_precompiled 2
+#define COCOAPODS_VERSION_PATCH_FFmpeg_precompiled 0
+
+// FFmpegWrapper
+#define COCOAPODS_POD_AVAILABLE_FFmpegWrapper
+#define COCOAPODS_VERSION_MAJOR_FFmpegWrapper 1
+#define COCOAPODS_VERSION_MINOR_FFmpegWrapper 0
+#define COCOAPODS_VERSION_PATCH_FFmpegWrapper 0
+
 // FXImageView
 #define COCOAPODS_POD_AVAILABLE_FXImageView
 #define COCOAPODS_VERSION_MAJOR_FXImageView 1
 #define COCOAPODS_VERSION_MINOR_FXImageView 3
 #define COCOAPODS_VERSION_PATCH_FXImageView 5
+
+// FormatterKit/TimeIntervalFormatter
+#define COCOAPODS_POD_AVAILABLE_FormatterKit_TimeIntervalFormatter
+#define COCOAPODS_VERSION_MAJOR_FormatterKit_TimeIntervalFormatter 1
+#define COCOAPODS_VERSION_MINOR_FormatterKit_TimeIntervalFormatter 8
+#define COCOAPODS_VERSION_PATCH_FormatterKit_TimeIntervalFormatter 0
+
+// Kickflip
+#define COCOAPODS_POD_AVAILABLE_Kickflip
+#define COCOAPODS_VERSION_MAJOR_Kickflip 1
+#define COCOAPODS_VERSION_MINOR_Kickflip 2
+#define COCOAPODS_VERSION_PATCH_Kickflip 0
+
+// Mantle
+#define COCOAPODS_POD_AVAILABLE_Mantle
+#define COCOAPODS_VERSION_MAJOR_Mantle 1
+#define COCOAPODS_VERSION_MINOR_Mantle 5
+#define COCOAPODS_VERSION_PATCH_Mantle 4
+
+// Mantle/extobjc
+#define COCOAPODS_POD_AVAILABLE_Mantle_extobjc
+#define COCOAPODS_VERSION_MAJOR_Mantle_extobjc 1
+#define COCOAPODS_VERSION_MINOR_Mantle_extobjc 5
+#define COCOAPODS_VERSION_PATCH_Mantle_extobjc 4
 
 // Mixpanel
 #define COCOAPODS_POD_AVAILABLE_Mixpanel
@@ -72,11 +174,35 @@
 #define COCOAPODS_VERSION_MINOR_Mixpanel_MPCategoryHelpers 7
 #define COCOAPODS_VERSION_PATCH_Mixpanel_MPCategoryHelpers 2
 
+// PureLayout
+#define COCOAPODS_POD_AVAILABLE_PureLayout
+#define COCOAPODS_VERSION_MAJOR_PureLayout 2
+#define COCOAPODS_VERSION_MINOR_PureLayout 0
+#define COCOAPODS_VERSION_PATCH_PureLayout 5
+
 // Reachability
 #define COCOAPODS_POD_AVAILABLE_Reachability
 #define COCOAPODS_VERSION_MAJOR_Reachability 3
 #define COCOAPODS_VERSION_MINOR_Reachability 1
 #define COCOAPODS_VERSION_PATCH_Reachability 1
+
+// SDWebImage
+#define COCOAPODS_POD_AVAILABLE_SDWebImage
+#define COCOAPODS_VERSION_MAJOR_SDWebImage 3
+#define COCOAPODS_VERSION_MINOR_SDWebImage 7
+#define COCOAPODS_VERSION_PATCH_SDWebImage 1
+
+// SDWebImage/Core
+#define COCOAPODS_POD_AVAILABLE_SDWebImage_Core
+#define COCOAPODS_VERSION_MAJOR_SDWebImage_Core 3
+#define COCOAPODS_VERSION_MINOR_SDWebImage_Core 7
+#define COCOAPODS_VERSION_PATCH_SDWebImage_Core 1
+
+// SSKeychain
+#define COCOAPODS_POD_AVAILABLE_SSKeychain
+#define COCOAPODS_VERSION_MAJOR_SSKeychain 1
+#define COCOAPODS_VERSION_MINOR_SSKeychain 2
+#define COCOAPODS_VERSION_PATCH_SSKeychain 2
 
 // VKFoundation
 #define COCOAPODS_POD_AVAILABLE_VKFoundation
