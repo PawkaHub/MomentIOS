@@ -66,6 +66,10 @@ class Moments:UIViewController, UITableViewDataSource, UITableViewDelegate {
         //cell.addSubview(label)
         var cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier) as UITableViewCell
         cell.textLabel?.text = tableData[indexPath.row]
+        
+        //Add a player
+        
+        
         return cell
     }
     

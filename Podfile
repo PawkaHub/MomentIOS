@@ -2,7 +2,7 @@
 platform :ios, '8.0'
 
 pod 'Mixpanel'
-pod 'Kickflip'
+pod 'VKVideoPlayer'
 
 target 'Moment' do
 

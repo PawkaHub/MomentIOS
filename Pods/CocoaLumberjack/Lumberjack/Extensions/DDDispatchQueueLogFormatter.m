@@ -12,7 +12,7 @@
 **/
 
 #if ! __has_feature(objc_arc)
-#error This file must be compiled with ARC. Use -fobjc-arc flag (or convert project to ARC).
+#warning This file must be compiled with ARC. Use -fobjc-arc flag (or convert project to ARC).
 #endif
 
 
@@ -89,13 +89,6 @@
 {
     int32_t loggerCount = OSAtomicAdd32(0, &atomicLoggerCount);
     
-    NSString *calendarIdentifier = nil;
-#if defined(__IPHONE_8_0) || defined(__MAC_10_10)
-    calendarIdentifier = NSCalendarIdentifierGregorian;
-#else
-    calendarIdentifier = NSGregorianCalendar;
-#endif
-    
     if (loggerCount <= 1)
     {
         // Single-threaded mode.
@@ -107,7 +100,7 @@
             [threadUnsafeDateFormatter setDateFormat:dateFormatString];
         }
         
-        [threadUnsafeDateFormatter setCalendar:[[NSCalendar alloc] initWithCalendarIdentifier:calendarIdentifier]];
+        [threadUnsafeDateFormatter setCalendar:[[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar]];
         return [threadUnsafeDateFormatter stringFromDate:date];
     }
     else
@@ -129,7 +122,7 @@
             threadDictionary[key] = dateFormatter;
         }
         
-        [dateFormatter setCalendar:[[NSCalendar alloc] initWithCalendarIdentifier:calendarIdentifier]];
+        [dateFormatter setCalendar:[[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar]];
         return [dateFormatter stringFromDate:date];
     }
 }

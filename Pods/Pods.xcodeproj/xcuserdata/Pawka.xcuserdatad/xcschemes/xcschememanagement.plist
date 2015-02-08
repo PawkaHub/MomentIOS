@@ -4,47 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-AFNetworking.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-AFOAuth2Manager.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-AWSiOSSDK.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-CocoaLumberjack.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-FFmpeg.xcscheme</key>
+		<key>Pods-DTCoreText.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-FFmpegWrapper.xcscheme</key>
+		<key>Pods-DTFoundation.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-FormatterKit.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-Kickflip.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-Mantle.xcscheme</key>
+		<key>Pods-FXImageView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -54,47 +29,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Moment-AFNetworking.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-Moment-AFOAuth2Manager.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-Moment-AWSiOSSDK.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-Moment-CocoaLumberjack.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Moment-FFmpeg.xcscheme</key>
+		<key>Pods-Moment-DTCoreText.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Moment-FFmpegWrapper.xcscheme</key>
+		<key>Pods-Moment-DTFoundation.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Moment-FormatterKit.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-Moment-Kickflip.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-Moment-Mantle.xcscheme</key>
+		<key>Pods-Moment-FXImageView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -104,17 +54,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Moment-PureLayout.xcscheme</key>
+		<key>Pods-Moment-Reachability.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Moment-SDWebImage.xcscheme</key>
+		<key>Pods-Moment-VKFoundation.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Moment-SSKeychain.xcscheme</key>
+		<key>Pods-Moment-VKVideoPlayer.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -124,47 +74,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-MomentTests-AFNetworking.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-MomentTests-AFOAuth2Manager.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-MomentTests-AWSiOSSDK.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-MomentTests-CocoaLumberjack.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-MomentTests-FFmpeg.xcscheme</key>
+		<key>Pods-MomentTests-DTCoreText.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-MomentTests-FFmpegWrapper.xcscheme</key>
+		<key>Pods-MomentTests-DTFoundation.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-MomentTests-FormatterKit.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-MomentTests-Kickflip.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-MomentTests-Mantle.xcscheme</key>
+		<key>Pods-MomentTests-FXImageView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -174,17 +99,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-MomentTests-PureLayout.xcscheme</key>
+		<key>Pods-MomentTests-Reachability.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-MomentTests-SDWebImage.xcscheme</key>
+		<key>Pods-MomentTests-VKFoundation.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-MomentTests-SSKeychain.xcscheme</key>
+		<key>Pods-MomentTests-VKVideoPlayer.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -194,17 +119,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-PureLayout.xcscheme</key>
+		<key>Pods-Reachability.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-SDWebImage.xcscheme</key>
+		<key>Pods-VKFoundation.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-SSKeychain.xcscheme</key>
+		<key>Pods-VKVideoPlayer.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -217,212 +142,137 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>05272603C72E5028DA3338B8</key>
+		<key>0DD2060299F5FA2C14CBBF0C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>10F344F6D925C29EF092F6A7</key>
+		<key>118BF6FC6CB916D397723FC6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1587E190C44590C6909189AE</key>
+		<key>27AB7402F6532A5C59086154</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>17280E3F6D2540C4BAA9C138</key>
+		<key>322FB2523FE687EC5378D8BC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1D4CA6DF16C3A38F202F63E3</key>
+		<key>375E29D9E5DB0256657F6A14</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1E65817A5B1C9EC16F1B50F5</key>
+		<key>399B90D177691CEF06A756FE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1F0FF9F97691FAC24B0CB693</key>
+		<key>45BF010401ACF48DF69D6E49</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>274A2CE6D0366E87E6AD68B1</key>
+		<key>4A482AA6FB40EF6FFC954F7E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>323EB239445A0E1203395344</key>
+		<key>56E8AD2465CD3D5E13B56C91</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>36DCDB5AC5DB72C75DC58C92</key>
+		<key>74C0C3474C471633FE49C130</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>386DCED6C1AB4EA7BF92FD13</key>
+		<key>74D6F11ABF56426D637C4877</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3D8E04394B6F0B16E8C3EEAA</key>
+		<key>7B819377842E70D04F1DDD5F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>42FDFAB8CFB2E7E1E2A290A7</key>
+		<key>7C59E7E6E238071C46AF693F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>45CE952F222EEF0B35BBA08E</key>
+		<key>8549783C6904480106954077</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>48D0F9EB643FEC5C7D124947</key>
+		<key>8637E3180852B26CB64961E7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>50FD68C3016364B5C90E3FF9</key>
+		<key>8B84FE394AC4190D89BAA941</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5F9BFC157E26D613DC8087B4</key>
+		<key>991C884305577A1E1A20D6CD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>64B39A3BA29585D8E0C4432C</key>
+		<key>9B7BECDD0010FAC95BB41BA0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6E7D9BB1922C011B99E39B7E</key>
+		<key>C21992A882958F2B0B6699CF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>76D30A7D625C231AABEE2122</key>
+		<key>CD78474FE65B4317925A0706</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7A375FD38CD944481E66E759</key>
+		<key>D722EC7F49FAB9C269374288</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7F05577F725C41B9CD34154C</key>
+		<key>E1152CC31B8F8B5563A5D0F2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8F8EF6F424F7A3017C9D9D9A</key>
+		<key>E189698FC2243A83D386C54D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9067F0AC21B28A4B04B81A7C</key>
+		<key>E45872F7C6850182CFBFB2D3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>931B146019905016DE4B068C</key>
+		<key>EA51AEF2E3EA7A4FDB1ED652</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>973EBCBB26558452D7F92F34</key>
+		<key>F510D149837093464A6E77A9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9E01705C64F6F227E200F78B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>A1DE1E13C0B4AEA27CB7B2EC</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>A46FDB357B457C917843336E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>AAD5C939E1307989AE956512</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>AC501DF392D5C370CF76B3CC</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>BB0784250CAF9C1F571F820B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C1FB49ADCE90B048A63928F4</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C8191A8A046B6A73869A513A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C89357EB517CC792DAE53C65</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D0FA5D4BA354B905D26B78A0</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D9838DD97E70462B7DE97A36</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DA230CDCD0B8CE0B40EA13F9</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E118D70DBF5505A026893DA6</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>EBFA81F45CB3C61338525D7E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FBA4E5BF8CB171B2B8AC80F4</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FE3F9F76897073A20F4341A4</key>
+		<key>F7DAD91748C0945E8C7A3F75</key>
 		<dict>
 			<key>primary</key>
 			<true/>

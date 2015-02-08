@@ -1,10 +1,8 @@
 #import <Foundation/Foundation.h>
 #if TARGET_OS_IPHONE
-#import <UIKit/UIColor.h>   // iOS
-#elif !defined (COCOAPODS_POD_AVAILABLE_CocoaLumberjack_CLI)
-#import <AppKit/NSColor.h>  // OS X with AppKit
+#import <UIKit/UIColor.h>
 #else
-#import "CLIColor.h"        // OS X without AppKit
+#import <AppKit/NSColor.h>
 #endif
 
 #import "DDLog.h"
@@ -37,6 +35,7 @@
 
 @interface DDTTYLogger : DDAbstractLogger <DDLogger>
 {
+    NSCalendar *calendar;
     NSUInteger calendarUnitFlags;
     
     NSString *appName;
@@ -82,17 +81,9 @@
  * You'll need to install the XcodeColors plugin to see colors in the Xcode console.
  * https://github.com/robbiehanson/XcodeColors
  * 
- * The default value is NO.
+ * The default value if NO.
 **/
 @property (readwrite, assign) BOOL colorsEnabled;
-
-/**
- * When using a custom formatter you can set the logMessage method not to append
- * '\n' character after each output. This allows for some greater flexibility with
- * custom formatters. Default value is YES.
- **/
-
-@property (readwrite, assign) BOOL automaticallyAppendNewlineForCustomFormatters;
 
 /**
  * The default color set (foregroundColor, backgroundColor) is:
@@ -118,10 +109,8 @@
 **/
 #if TARGET_OS_IPHONE
 - (void)setForegroundColor:(UIColor *)txtColor backgroundColor:(UIColor *)bgColor forFlag:(int)mask;
-#elif !defined (COCOAPODS_POD_AVAILABLE_CocoaLumberjack_CLI)
-- (void)setForegroundColor:(NSColor *)txtColor backgroundColor:(NSColor *)bgColor forFlag:(int)mask;
 #else
-- (void)setForegroundColor:(CLIColor *)txtColor backgroundColor:(CLIColor *)bgColor forFlag:(int)mask;
+- (void)setForegroundColor:(NSColor *)txtColor backgroundColor:(NSColor *)bgColor forFlag:(int)mask;
 #endif
 
 /**
@@ -137,10 +126,8 @@
 **/
 #if TARGET_OS_IPHONE
 - (void)setForegroundColor:(UIColor *)txtColor backgroundColor:(UIColor *)bgColor forFlag:(int)mask context:(int)ctxt;
-#elif !defined (COCOAPODS_POD_AVAILABLE_CocoaLumberjack_CLI)
-- (void)setForegroundColor:(NSColor *)txtColor backgroundColor:(NSColor *)bgColor forFlag:(int)mask context:(int)ctxt;
 #else
-- (void)setForegroundColor:(CLIColor *)txtColor backgroundColor:(CLIColor *)bgColor forFlag:(int)mask context:(int)ctxt;
+- (void)setForegroundColor:(NSColor *)txtColor backgroundColor:(NSColor *)bgColor forFlag:(int)mask context:(int)ctxt;
 #endif
 
 /**
@@ -157,8 +144,6 @@
  *   UIColor *purple = [UIColor colorWithRed:(64/255.0) green:(0/255.0) blue:(128/255.0) alpha:1.0];
  * #else
  *   NSColor *purple = [NSColor colorWithCalibratedRed:(64/255.0) green:(0/255.0) blue:(128/255.0) alpha:1.0];
- *
- * Note: For CLI OS X projects that don't link with AppKit use CLIColor objects instead
  * 
  * [[DDTTYLogger sharedInstance] setForegroundColor:purple backgroundColor:nil forTag:PurpleTag];
  * [DDLog addLogger:[DDTTYLogger sharedInstance]];
@@ -169,10 +154,8 @@
 **/
 #if TARGET_OS_IPHONE
 - (void)setForegroundColor:(UIColor *)txtColor backgroundColor:(UIColor *)bgColor forTag:(id <NSCopying>)tag;
-#elif !defined (COCOAPODS_POD_AVAILABLE_CocoaLumberjack_CLI)
-- (void)setForegroundColor:(NSColor *)txtColor backgroundColor:(NSColor *)bgColor forTag:(id <NSCopying>)tag;
 #else
-- (void)setForegroundColor:(CLIColor *)txtColor backgroundColor:(CLIColor *)bgColor forTag:(id <NSCopying>)tag;
+- (void)setForegroundColor:(NSColor *)txtColor backgroundColor:(NSColor *)bgColor forTag:(id <NSCopying>)tag;
 #endif
 
 /**
