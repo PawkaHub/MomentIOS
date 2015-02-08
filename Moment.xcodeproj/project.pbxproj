@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		52725F901A8732EB0012D191 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52725F8F1A8732EB0012D191 /* AppDelegate.swift */; };
 		52725F931A8732EB0012D191 /* Moment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52725F911A8732EB0012D191 /* Moment.xcdatamodeld */; };
-		52725F951A8732EB0012D191 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52725F941A8732EB0012D191 /* ViewController.swift */; };
 		52725F9A1A8732EB0012D191 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52725F991A8732EB0012D191 /* Images.xcassets */; };
 		52725FA91A8732EB0012D191 /* MomentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52725FA81A8732EB0012D191 /* MomentTests.swift */; };
 		65D79CB4CFDC09086219CDF5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0175C818ED1389B95118C1B2 /* libPods.a */; };
@@ -31,7 +30,6 @@
 		52725F8E1A8732EB0012D191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52725F8F1A8732EB0012D191 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52725F921A8732EB0012D191 /* Moment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Moment.xcdatamodel; sourceTree = "<group>"; };
-		52725F941A8732EB0012D191 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52725F991A8732EB0012D191 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		52725FA21A8732EB0012D191 /* MomentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MomentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52725FA71A8732EB0012D191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				52725F8F1A8732EB0012D191 /* AppDelegate.swift */,
-				52725F941A8732EB0012D191 /* ViewController.swift */,
 				52725F991A8732EB0012D191 /* Images.xcassets */,
 				52725F911A8732EB0012D191 /* Moment.xcdatamodeld */,
 				52725F8D1A8732EB0012D191 /* Supporting Files */,
@@ -266,7 +263,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52725F951A8732EB0012D191 /* ViewController.swift in Sources */,
 				52725F901A8732EB0012D191 /* AppDelegate.swift in Sources */,
 				52725F931A8732EB0012D191 /* Moment.xcdatamodeld in Sources */,
 			);
