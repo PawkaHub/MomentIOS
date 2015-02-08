@@ -34,10 +34,12 @@ class Moments:UIViewController, UITableViewDataSource, UITableViewDelegate {
         //Add the table
         self.view.addSubview(momentsTable)
         
+        
         //Setup table data
         for index in 0...100 {
             tableData.append("Item \(index)")
         }
+        
     }
     
     override func didReceiveMemoryWarning() {
