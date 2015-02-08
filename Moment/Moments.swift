@@ -23,6 +23,7 @@ class Moments:UIViewController, UITableViewDataSource, UITableViewDelegate {
         
         //momentsTable Customization
         momentsTable.autoresizingMask = UIViewAutoresizing.FlexibleTopMargin | UIViewAutoresizing.FlexibleBottomMargin | UIViewAutoresizing.FlexibleRightMargin | UIViewAutoresizing.FlexibleLeftMargin
+        momentsTable.pagingEnabled = true
         momentsTable.dataSource = self
         momentsTable.delegate = self
         momentsTable.backgroundColor = UIColor.greenColor()
@@ -69,9 +70,9 @@ class Moments:UIViewController, UITableViewDataSource, UITableViewDelegate {
     }
     
     // UITableViewDelegate Functions
-    /*func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return 50
-    }*/
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return self.view.frame.height
+    }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         let alert = UIAlertController(title: "Item Selected", message: "You selected item \(indexPath.row)", preferredStyle: UIAlertControllerStyle.Alert)
