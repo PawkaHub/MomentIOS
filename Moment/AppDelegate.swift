@@ -20,6 +20,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
         self.window?.backgroundColor = UIColor.redColor()
         self.window?.makeKeyAndVisible()
+        
+        //Set the root view controller
+        var moments: Moments = Moments()
+        
+        if let window = self.window{
+            window.rootViewController = moments
+        }
+        
         return true
     }
 

@@ -11,6 +11,7 @@
 		52725F931A8732EB0012D191 /* Moment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52725F911A8732EB0012D191 /* Moment.xcdatamodeld */; };
 		52725F9A1A8732EB0012D191 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52725F991A8732EB0012D191 /* Images.xcassets */; };
 		52725FA91A8732EB0012D191 /* MomentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52725FA81A8732EB0012D191 /* MomentTests.swift */; };
+		52A4BA871A87397500BD1957 /* Moments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A4BA861A87397500BD1957 /* Moments.swift */; };
 		65D79CB4CFDC09086219CDF5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0175C818ED1389B95118C1B2 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		52725FA21A8732EB0012D191 /* MomentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MomentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52725FA71A8732EB0012D191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52725FA81A8732EB0012D191 /* MomentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentTests.swift; sourceTree = "<group>"; };
+		52A4BA861A87397500BD1957 /* Moments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moments.swift; sourceTree = "<group>"; };
 		7101FFB2EBE680D6FB1A9A77 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F79DA7E531BAF48CD51A732D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +82,7 @@
 		52725F8C1A8732EB0012D191 /* Moment */ = {
 			isa = PBXGroup;
 			children = (
+				52A4BA861A87397500BD1957 /* Moments.swift */,
 				52725F8F1A8732EB0012D191 /* AppDelegate.swift */,
 				52725F991A8732EB0012D191 /* Images.xcassets */,
 				52725F911A8732EB0012D191 /* Moment.xcdatamodeld */,
@@ -265,6 +268,7 @@
 			files = (
 				52725F901A8732EB0012D191 /* AppDelegate.swift in Sources */,
 				52725F931A8732EB0012D191 /* Moment.xcdatamodeld in Sources */,
+				52A4BA871A87397500BD1957 /* Moments.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +375,7 @@
 			baseConfigurationReference = 7101FFB2EBE680D6FB1A9A77 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Moment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -382,6 +387,7 @@
 			baseConfigurationReference = F79DA7E531BAF48CD51A732D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Moment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
